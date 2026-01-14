@@ -1,0 +1,105 @@
+
+body
+{
+    background-color: #0c3363;
+}
+
+.nav-1 {
+    background-color: #0c3363;
+}
+.Fina {
+    font-weight: bold;
+    font-family:"monaco",monospace;
+}
+.herosection-name {
+    position: absolute;
+    top: 65%;
+    left: 300px;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3rem;
+
+    text-shadow: 2px 2px 4px #000000;
+}
+.genre
+{
+    font-size:20px ;
+   font-familY:"sans-serif";  
+}
+
+.star{
+  font-size: 15px;
+    color: gold;
+}
+.fav{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card-button{
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: none;
+  color: white;
+  font-size: 24px;
+  position: 90px;
+  cursor: pointer;
+  
+}
+.card-img-custom {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: flex;
+}
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 48px;
+  color: Yellow;
+  opacity: 0.8;
+  line-height: 1;
+  display: block;
+}
+.hero {
+  height: 60vh;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("bollywoodhero1.jpeg"); 
+  background-size: cover;
+  background-position: center;
+}
+.hero-kolly {
+  height: 60vh;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("kollywodhero.jpeg"); 
+  background-size: cover;
+  background-position: center;
+}
+.hero-molly {
+  height: 60vh;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("mollywoodhero.jpeg"); 
+  background-size: cover;
+  background-position: center;
+}
+.hero-holly {
+  height: 60vh;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("Hollywodhero.jpeg"); 
+  background-size: cover;
+  background-position: center;
+}
+
